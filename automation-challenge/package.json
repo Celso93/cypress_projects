@@ -1,0 +1,16 @@
+{
+  "name": "automation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "UI": "npx cypress open",
+    "chrome:headless": "npx cypress run --browser chrome cypress-mochawesome-reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "cypress-mochawesome-reporter": "^3.4.0"
+  }
+}
